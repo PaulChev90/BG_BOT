@@ -1,9 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
-    target: 'esnext', // Убедись, что компиляция идет на последнюю версию браузеров
+    target: 'esnext', // Для использования новейших возможностей JS
   },
-});
+})
