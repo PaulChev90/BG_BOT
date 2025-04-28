@@ -1,11 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import WarehouseList from './WarehouseList';
 import './style.css';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('app'));
+
+root.render(
   <React.StrictMode>
     <WarehouseList />
-  </React.StrictMode>,
-  document.getElementById('app')
+  </React.StrictMode>
 );
