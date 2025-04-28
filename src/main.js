@@ -5,8 +5,9 @@ import './style.css'; // Если ты используешь стили
 
 const root = ReactDOM.createRoot(document.getElementById('app'));
 
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <WarehouseList />
-  </React.StrictMode>
+    <WarehouseList /> {/* Проверяем, что компонент правильно отображается */}
+  </React.StrictMode>,
+  document.getElementById('app') // Где рендерится приложение
 );
