@@ -11,7 +11,9 @@
    git clone <url>
 
 2. Установить зависимости:
+   ```bash
    npm install
    
 3. Запустить проект:
+      ```bash
    npm run dev
