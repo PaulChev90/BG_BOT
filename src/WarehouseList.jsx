@@ -17,7 +17,7 @@ const warehouses = [
     longitude: 30.794392,
     additional_inf: '',
   },
-  // Добавь остальные склады
+  // Добавь другие склады
 ];
 
 const WarehouseList = () => {
